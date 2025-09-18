@@ -2,5 +2,6 @@
 name: REANNZ Training Modules
 category: Files
 subcategory: Training
+simple_page: true
 description: |
   This python application allows users to git clone workshops into the home directory
