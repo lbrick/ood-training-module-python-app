@@ -1,6 +1,6 @@
 ---
-name: Python App - Training clone
+name: REANNZ Training Modules
 category: Files
-subcategory: Utilities
+subcategory: Training
 description: |
-  This app will launch python app
+  This python application allows users to git clone workshops into the home directory
