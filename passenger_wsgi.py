@@ -27,9 +27,9 @@ def run_cmd(cmd, cwd=None):
 def clone_or_update(repo_url, target_dir, branch="main"):
     if os.path.isdir(os.path.join(target_dir, ".git")):
         cmds = [
-            ["git", "fetch", "origin", branch, "--depth", "1"],
+            ["git", "fetch", "--depth", "1"],
             ["git", "checkout", branch],
-            ["git", "reset", "--hard", f"origin/{branch}"],
+            ["git", "reset", "--hard"],
         ]
     else:
         os.makedirs(os.path.dirname(target_dir), exist_ok=True)
